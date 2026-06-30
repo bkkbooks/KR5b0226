@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0226/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0226/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 洞玄靈寶自然齋儀
+  date: '2015-08-29 00:14:30.232302'
+  source:
+    repository: kanripo
+    path: KR5b0226
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0226_000-ZTDZ.yaml, hash: 'sha256:901c424c53e83f7e366ddc3635fc9fa61cb9c9364da2277996e11fccaf135534'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0226_000-ZTDZ.markers.yaml, hash: 'sha256:729e8b9e87897bd8305e6e9f999ac222a02a44b2233ab142f8951097297e6e76'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0226_SJB_000-090819a
+    span:
+    - body
+    - 0
+    - 1667
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:b399591669244c5f6ff695a026e9fb1cb0e082394d7fd9aac4d3579b6dbbedc2
